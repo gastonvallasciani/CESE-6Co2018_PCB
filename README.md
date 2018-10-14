@@ -13,4 +13,4 @@ A su vez, el pcb posee hardware para poder trabajar en modo monoestereo. Este, s
 
 Para las entradas y salidas de audio se utilizarán conectores miniplug de 3.5mm(4 en total).
 
-Por último, se incluirán 3 leds para usar a modo de indicación de nivel de entrada y un buzzer.
+Por último, se incluirán 3 leds para usar a modo de indicación de nivel de entrada.
