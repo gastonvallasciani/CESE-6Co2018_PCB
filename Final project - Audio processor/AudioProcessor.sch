@@ -2302,8 +2302,8 @@ Connection ~ 8000 2750
 Wire Wire Line
 	7850 2400 7850 2350
 Wire Wire Line
-	8150 2350 8150 2400
-Text Label 8150 2350 0    60   ~ 0
+	8150 2250 8150 2400
+Text Label 8150 2250 0    60   ~ 0
 AUDIO_LDOO
 Text Label 10500 950  0    60   ~ 0
 GND
@@ -2325,7 +2325,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 2350 9100 2350
 Wire Wire Line
-	9100 2350 9100 2400
+	9100 2250 9100 2400
 Wire Wire Line
 	8800 2700 8800 2750
 Wire Wire Line
@@ -2338,14 +2338,14 @@ Connection ~ 8950 2750
 Wire Wire Line
 	8950 2300 8950 2350
 Connection ~ 8950 2350
-Text Label 9100 2350 0    60   ~ 0
+Text Label 9100 2250 0    60   ~ 0
 AUDIO_DVDD
 Wire Wire Line
 	9700 2400 9700 2350
 Wire Wire Line
 	9700 2350 10000 2350
 Wire Wire Line
-	10000 2350 10000 2400
+	10000 2250 10000 2400
 Wire Wire Line
 	9850 2300 9850 2350
 Connection ~ 9850 2350
@@ -2360,7 +2360,7 @@ Wire Wire Line
 Connection ~ 9850 2750
 Text Label 8950 1550 0    60   ~ 0
 AUDIO_AVDD
-Text Label 10000 2350 0    60   ~ 0
+Text Label 10000 2250 0    60   ~ 0
 AUDIO_AVDD
 Text Label 9250 1650 0    60   ~ 0
 GNDA
@@ -2435,7 +2435,7 @@ Wire Wire Line
 Wire Wire Line
 	10550 2350 10850 2350
 Wire Wire Line
-	10850 2350 10850 2400
+	10850 2250 10850 2400
 Wire Wire Line
 	10700 2300 10700 2350
 Connection ~ 10700 2350
@@ -2450,7 +2450,7 @@ Wire Wire Line
 Connection ~ 10700 2750
 Wire Wire Line
 	9500 850  9200 850 
-Text Label 10850 2350 0    60   ~ 0
+Text Label 10850 2250 0    60   ~ 0
 CPVDD
 $Comp
 L Logo_Poncho #G2
@@ -2567,4 +2567,8 @@ Wire Wire Line
 Wire Wire Line
 	5900 1250 6100 1250
 NoConn ~ 7400 4000
+Connection ~ 9100 2350
+Connection ~ 8150 2350
+Connection ~ 10000 2350
+Connection ~ 10850 2350
 $EndSCHEMATC
