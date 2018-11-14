@@ -1,4 +1,4 @@
-update=dom 14 oct 2018 10:08:08 -03
+update=mar 13 nov 2018 21:19:09 -03
 version=1
 last_client=kicad
 [pcbnew]
@@ -72,4 +72,6 @@ LibName30=opto
 LibName31=atmel
 LibName32=contrib
 LibName33=valves
-LibName34=Poncho_Grande/poncho_grande-cache
+LibName34=AudioProcessor-cache
+LibName35=Poncho_Grande/poncho_grande-cache
+LibName36=/home/gastonvallasciani/plug TRS/JACK_TRS
